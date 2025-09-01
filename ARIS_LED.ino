@@ -1,4 +1,4 @@
-// ARIS LED Control
+
 String command = "";
 
 void setup() {
