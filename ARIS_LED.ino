@@ -10,7 +10,7 @@ void setup() {
 void loop() {
   if (Serial.available() > 0) {
     command = Serial.readStringUntil('\n');
-    command.trim(); // remove spaces/newlines
+    command.trim(); 
 
     if (command == "LED_ON") {
       digitalWrite(13, HIGH);
